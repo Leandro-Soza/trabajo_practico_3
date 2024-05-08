@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 	<head>
 		<meta charset="UTF-8">
 		<title>Ejemplo de pagina</title>
@@ -19,21 +19,71 @@
 		</nav>
 		
 		<main>
-			<section id="Comienzo">
+			<section id="seccion_1">
 				<h2>Tipo de Cursada</h2>
-				<p>Materia teorica/practica</p>
-				<h3>Dias de clases Practica</h3>
-				<ol>
-					<li>Lunes</li>
-					<li>Jueves</li>
-					<li>Viernes</li>
-				</ol>
-				<h4>Dias de clase Teorica</h4>
-				<ol>
-					<li>Miercoles</li>
-				</ol>
+				<p>Materia teorica/practica de segundo año de la carrera APU</p>
+				<h3>Dias de clases</h3>
+				
+				<table border="1">
+					<tr>
+						<th>Teoria</th>
+						<th colspan="3">Practica</th>
+					</tr>
+					<tr>
+						<td>Miercoles</td>
+						<td>Lunes</td>
+						<td>Jueves</td>
+						<td>Viernes</td>
+					</tr>
+				</table>
+			</section>
+			
+			<section id="sección_2">
+				<h2>Profesores a cargo de la materia</h2>
+				
+				<h3>Profesor de la Teoria</h3>
+				<ul>
+					<li>Vega, Ariel</li>
+				</ul>
+				
+				<h3>Profesores de la Práctica</h3>
+				<ul>
+					<li>Apaza Carolina</li>
+					<li>Sosa Gustavo</li>
+					<li>Rodriguez Juan Carlos</li>
+				</ul>
+			</section>
+			
+			<section id="sección_3">
+				<h2>Sedes</h2>
+				<p>La materia se dicta en varias sedes</p>
+				
+				<h3>Sedes disponibles</h3>
+				<ul>
+					<li>San Salvador de Jujuy</li>
+					<li>San Pedro</li>
+					<li>La Quiaca</li>
+				</ul>
 			</section>
 		</main>
-	
+		
+		<aside>
+			<h2>Enlace para la UnJu</h2>
+			<a href="https://www.unju.edu.ar">FI UnJu</a>
+			
+			<img alt="Logo de la UnJu" src="../static/images/unju_escudo.png">
+		</aside>
+		
+		<footer>
+			<p>Contaco FI UnJu: info@fi.unju.edu.ar</p>
+			<p>Redes Sociales:</p>
+			<ul>
+				<li><a href="https://www.instagram.com/fiunju/">Instagram</a></li>
+				<li><a href="https://www.youtube.com/channel/UCgS9XJlKKSYI1oJ4lIOo77A">Youtube</a></li>
+				<li><a href="https://www.linkedin.com/school/facultad-de-ingenieria-unju">Linkedin</a></li>
+				<li><a href="https://www.facebook.com/fiunju/">Facebook</a></li>
+			</ul>
+		</footer>
+		
 	</body>
 </html>
