@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+body{
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+#encabezado{
+	background-color: #ffaa80;
+	color: #000033;
+	padding: 10px;
+	text-align: center;
+}
+#formulario{
+	background-color: #ffe6cc;
+	padding: 40px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	font-style: italic;
+}
