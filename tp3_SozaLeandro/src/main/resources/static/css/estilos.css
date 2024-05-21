@@ -4,6 +4,7 @@ body{
 	font-family: Arial, sans-serif;
 	margin: 0;
 	padding: 0;
+	background-color: #cce6ff;
 }
 
 #encabezado{
@@ -19,4 +20,103 @@ body{
 	margin-left: auto;
 	margin-right: auto;
 	font-style: italic;
+}
+#newencabezado{
+	text-align: center;
+	width: 100%;
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	background-color: #801a00;
+	text-decoration: underline #661400;
+	font-weight: bolder;
+}
+.menu{
+	background-color: #cc33ff;
+	font-size: large;
+	font-style: oblique;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+}
+.enlace{
+	font-size: x-large;
+	font-style: inherit;
+}
+.principal{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.secciones{
+	background-color: #33cc33;
+	text-align: center;
+}
+.h2{
+	font-style: inherit;
+	font-size: 28px;
+	text-align: center;
+	color: #330000;
+	text-decoration: underline #991f00;
+}
+.h3{
+	font-style: inherit;
+	font-size: 20px;
+	text-align: center;
+	color: #261a0d;
+	text-decoration: underline #991f00;
+}
+.tabla{
+	width: 100%;
+	text-align: center;
+	height: auto;
+	background-color: #e62e00;
+	border-collapse: collapse;
+	border: 3px solid #000;
+	font-weight: bold;
+	color: #e0ebeb;
+}
+th, td{
+	border: 3px solid #000;
+}
+.lista{
+	list-style: square;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+}
+.parrafo{
+	font-style: italic;
+	font-size: 22px;
+	font-weight: bolder;
+	text-align: center;
+}
+
+.adicional{
+	width: 100%;
+	text-align: center;
+	background-color: #00ff55;
+}
+.foter{
+	width: 100%;
+	text-align: right;
+}
+.h2nuevo{
+	font-style: inherit;
+	font-size: 28px;
+	text-align: center;
+	color: #330000;
+	text-decoration: underline #991f00;
+}
+.parrafonuevo{
+	font-style: italic;
+	font-size: 22px;
+	font-weight: bolder;
+	text-align: center;
+	text-decoration: underline #b3b3cc;
+	display: flex;
+	justify-content: center;
+}
+.imagen{
+	text-align: center;
 }

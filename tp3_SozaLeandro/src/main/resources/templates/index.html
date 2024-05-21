@@ -6,25 +6,26 @@
 	</head>
 	
 	<body>
-		<header>
+		<header id="newencabezado">
 			<h1>Bienvenidos a la materia de Programación Visual</h1>
+			<link rel="stylesheet" href="../static/css/estilos.css">
 		</header>
 		
-		<nav>
-			<ul>
-				<li><a href="https://www.fi.unju.edu.ar">FI UnJu</a></li>
-				<li><a href="https://www.alumnos.unju.edu.ar/unju">Siu Guarani</a></li>
-				<li><a href="https://www.virtual.unju.edu.ar">Aula Virtual</a></li>
+		<nav class="menu">
+			<ul class="lista">
+				<li ><a href="https://www.fi.unju.edu.ar" class="enlace">FI UnJu</a></li>
+				<li ><a href="https://www.alumnos.unju.edu.ar/unju" class="enlace">Siu Guarani</a></li>
+				<li ><a href="https://www.virtual.unju.edu.ar" class="enlace">Aula Virtual</a></li>
 			</ul>
 		</nav>
 		
-		<main>
-			<section id="seccion_1">
-				<h2>Tipo de Cursada</h2>
-				<p>Materia teorica/practica de segundo año de la carrera APU</p>
-				<h3>Dias de clases</h3>
+		<main class="principal">
+			<section class="secciones">
+				<h2 class="h2">Tipo de Cursada</h2>
+				<p class="parrafo">Materia teorica/practica de segundo año de la carrera APU</p>
+				<h3 class="h3">Dias de clases</h3>
 				
-				<table border="1">
+				<table class="tabla">
 					<tr>
 						<th>Teoria</th>
 						<th colspan="3">Practica</th>
@@ -38,28 +39,28 @@
 				</table>
 			</section>
 			
-			<section id="sección_2">
-				<h2>Profesores a cargo de la materia</h2>
+			<section class="secciones">
+				<h2 class="h2">Profesores a cargo de la materia</h2>
 				
-				<h3>Profesor de la Teoria</h3>
-				<ul>
+				<h3 class="h3">Profesor de la Teoria</h3>
+				<ul class="lista">
 					<li>Vega, Ariel</li>
 				</ul>
 				
-				<h3>Profesores de la Práctica</h3>
-				<ul>
+				<h3 class="h3">Profesores de la Práctica</h3>
+				<ul class="lista">
 					<li>Apaza Carolina</li>
 					<li>Sosa Gustavo</li>
 					<li>Rodriguez Juan Carlos</li>
 				</ul>
 			</section>
 			
-			<section id="sección_3">
-				<h2>Sedes</h2>
-				<p>La materia se dicta en varias sedes</p>
+			<section class="secciones">
+				<h2 class="h2">Sedes</h2>
+				<p class="parrafo">La materia se dicta en varias sedes</p>
 				
-				<h3>Sedes disponibles</h3>
-				<ul>
+				<h3 class="h3">Sedes disponibles</h3>
+				<ul class="lista">
 					<li>San Salvador de Jujuy</li>
 					<li>San Pedro</li>
 					<li>La Quiaca</li>
@@ -67,23 +68,24 @@
 			</section>
 		</main>
 		
-		<aside>
-			<h2>Enlace para la UnJu</h2>
-			<a href="https://www.unju.edu.ar">FI UnJu</a>
-			
-			<img alt="Logo de la UnJu" src="../static/images/unju_escudo.png">
+		<div class="ordenamiento">
+		<aside class="adicional">
+			<img alt="Logo de la UnJu" src="../static/images/unju_escudo.png" class="imagen">
+			<h2 class="h2nuevo">Enlace para la UnJu</h2>
+			<a href="https://www.unju.edu.ar" class="enlace">FI UnJu</a><br>
 		</aside>
 		
-		<footer>
-			<p>Contaco FI UnJu: info@fi.unju.edu.ar</p>
-			<p>Redes Sociales:</p>
-			<ul>
-				<li><a href="https://www.instagram.com/fiunju/">Instagram</a></li>
-				<li><a href="https://www.youtube.com/channel/UCgS9XJlKKSYI1oJ4lIOo77A">Youtube</a></li>
-				<li><a href="https://www.linkedin.com/school/facultad-de-ingenieria-unju">Linkedin</a></li>
-				<li><a href="https://www.facebook.com/fiunju/">Facebook</a></li>
+		<footer id="foter">
+			<p class="parrafonuevo">Contaco FI UnJu: info@fi.unju.edu.ar</p>
+			<p class="parrafonuevo">Redes Sociales:</p>
+			<ul class="lista">
+				<li><a href="https://www.instagram.com/fiunju/" class="enlace">Instagram</a></li>
+				<li><a href="https://www.youtube.com/channel/UCgS9XJlKKSYI1oJ4lIOo77A" class="enlace">Youtube</a></li>
+				<li><a href="https://www.linkedin.com/school/facultad-de-ingenieria-unju" class="enlace">Linkedin</a></li>
+				<li><a href="https://www.facebook.com/fiunju/" class="enlace">Facebook</a></li>
 			</ul>
 		</footer>
+		</div>
 		
 	</body>
 </html>
