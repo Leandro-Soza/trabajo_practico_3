@@ -27,12 +27,10 @@ body{
 	height: 100px;
 	display: flex;
 	justify-content: center;
-	background-color: #801a00;
 	text-decoration: underline #661400;
 	font-weight: bolder;
 }
 .menu{
-	background-color: #cc33ff;
 	font-size: large;
 	font-style: oblique;
 	text-align: center;
@@ -49,7 +47,6 @@ body{
 	justify-content: center;
 }
 .secciones{
-	background-color: #33cc33;
 	text-align: center;
 }
 .h2{
@@ -95,11 +92,13 @@ th, td{
 .adicional{
 	width: 100%;
 	text-align: center;
-	background-color: #00ff55;
 }
-.foter{
+#foter{
 	width: 100%;
 	text-align: right;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 .h2nuevo{
 	font-style: inherit;
@@ -114,8 +113,6 @@ th, td{
 	font-weight: bolder;
 	text-align: center;
 	text-decoration: underline #b3b3cc;
-	display: flex;
-	justify-content: center;
 }
 .imagen{
 	text-align: center;
